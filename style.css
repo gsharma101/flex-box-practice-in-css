@@ -5,9 +5,15 @@
 }
 .container {
   display: flex;
-  /* flex-direction: column-reverse; */
+  flex-direction: row;
+  /* flex-direction: column-reverse; 
+  flex direction remain row by default*/
   justify-content: space-evenly;
+  /* Justify content is for main axis */
   background-color: #ccc;
+  align-items: baseline;
+  /* align item is for cross axis 
+  by default it is stretch*/
   padding: 10px;
 }
 
@@ -17,4 +23,8 @@
   margin: 30px;
   color: white;
   font-size: 40px;
+}
+
+.i4 {
+  height: 200px;
 }
