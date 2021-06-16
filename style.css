@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  justify-content: space-evenly;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.items {
+  background-color: #f1425d;
+  padding: 40px;
+  margin: 30px;
+  color: white;
+  font-size: 40px;
+}
